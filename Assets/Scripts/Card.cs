@@ -8,5 +8,5 @@ public class Card : ScriptableObject
     public int bulletCost;
     public string cardName;
     public string description;
-    public string cardType;
+    public string cardType = "None";
 }

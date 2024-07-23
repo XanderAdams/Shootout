@@ -2,14 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[CreateAssetMenu(fileName = "NewCard", menuName = "Card/Gunmen")]
 public class Gunman : Card
 {
-    int max_grit;
-    int grit;
-    int base_firepower;
-    int firepower;
-    int base_attacks;
-    int attacks;
+    public int max_grit;
+    public int grit;
+    public int base_firepower;
+    public int firepower;
+    public int base_attacks;
+    public int attacks;
+    
 
-    List<Equipment> equipment;
+    public List<Equipment> equipment;
 }
