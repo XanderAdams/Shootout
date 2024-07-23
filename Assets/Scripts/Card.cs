@@ -2,9 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Card : MonoBehaviour
+[CreateAssetMenu(FileName = "NewCard", menuName = "Card/typeless")]
+public class Card : ScriptableObject
 {
-    int Bullet_Cost;
-    string Name;
-    string Flavor_Text;
+    public int bulletCost;
+    public string cardName;
+    public string description;
+    public string cardType;
 }
