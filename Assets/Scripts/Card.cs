@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(FileName = "NewCard", menuName = "Card/typeless")]
+[CreateAssetMenu(fileName = "NewCard", menuName = "Card/Typeless")]
 public class Card : ScriptableObject
 {
     public int bulletCost;
